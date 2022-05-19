@@ -7,7 +7,7 @@ const Graph = (props) => {
   
   if (props.graphData["Net gains"] === 0) {
     console.log("zero")
-  }else{content=<GraphArea graphData={props.graphData} years={props.years}/>}
+  }else{content=<GraphArea graphData={props.graphData} monthlyDeposit={props.monthlyDeposit}/>}
 
   return (
     <div className="graph">

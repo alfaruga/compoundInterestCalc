@@ -1,7 +1,23 @@
-.graph-area{
-    background-color: #f3f3f3;
-    width: 100%;
-    height:80%;
-    display: flex;
-    
+h3 {
+  margin: 0;
+  padding: 0.5rem;
+}
+.graph-area {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.graph-area_xaxis {
+  width: 100%;
+  height: 100%;
+}
+.graph-area_bars {
+  height: 80%;
+}
+.graph-area_titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }

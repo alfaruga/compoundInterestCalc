@@ -81,7 +81,7 @@ function App() {
       />
       <Graph
         className="App-graph"
-        years={input[2]["value"]}
+        monthlyDeposit={input[0]["value"]}
         graphData={graphValues}
         input={input}
       />
