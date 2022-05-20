@@ -1,5 +1,5 @@
 import Controls from './Controls';
-
+import './Form.css'
 const Form = props =>{
     const keyAndValueExtractor=(key, value)=>{
         props.updateHandler(key, value)
@@ -9,7 +9,7 @@ const Form = props =>{
         props.makeGraph()
     }
     return(
-        <form onSubmit={submitHandler}>
+        <form className="control_form" onSubmit={submitHandler}>
             <Controls updateHandler={keyAndValueExtractor} controlsValues={props.controlsData}/>
             <button>Build Graph</button>
         </form>

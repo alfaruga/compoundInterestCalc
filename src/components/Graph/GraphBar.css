@@ -1,15 +1,15 @@
 .graph-bar {
-  background-color: yellow;
   display: flex;
   flex-direction: column;
+  width:100%;
 }
 .graph-bar_netgains {
   background-color: white;
 }
 .graph-bar_aportations {
-  background-color: blue;
+  background-color: #176BA0;
 }
 
 .graph-bar_interest{
-    background-color: red
+    background-color: #19AADE;
 }

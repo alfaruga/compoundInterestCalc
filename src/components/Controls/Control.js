@@ -7,7 +7,7 @@ const Control = (props) => {
   };
 
   return (
-    <div>
+    <div className="control">
       <p>{props.label}</p>
       <input
         id={props.label}        
@@ -15,6 +15,7 @@ const Control = (props) => {
         value={props.value}
         type="number"
         min="1"
+        max={props.limit}
         step="1"
       ></input>
     </div>

@@ -75,12 +75,10 @@ function App() {
     <div className="App">
       <Form
         makeGraph={graphBuilder}
-        className="App-controls"
         updateHandler={updateInput}
         controlsData={input}
       />
       <Graph
-        className="App-graph"
         monthlyDeposit={input[0]["value"]}
         graphData={graphValues}
         input={input}

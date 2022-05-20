@@ -1,0 +1,9 @@
+.xaxis {
+    border-top: solid 3px black ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 5%;
+  background-color: #f3f3f3;
+}
