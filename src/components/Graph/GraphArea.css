@@ -29,11 +29,14 @@ h3 {
   width: 10%;
 }
 .graph-area_bars {
-  height: 100%;
+  height: 95%;
 }
 .graph-area_titles {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+}
+.graph-area_xaxis{
+  height:5%;
 }

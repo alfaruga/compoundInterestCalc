@@ -9,9 +9,10 @@ const GraphBars = (props) => {
   const arrYearlyGains = props.graphData["Yearly Gains"].map((item, index) => {
     return (
       <div className="graph-bars_container" style={{width: `${props.barWidth}`}}>
-        <p>Net gains: {Math.round(yearlyGains[index])}</p>
-        <p>Interest: {Math.round(interestData[index])}</p>
-
+        <div className="graph-bars_bar_label">
+        <p>ROI: ${Math.round(yearlyGains[index]/1000)}K</p>
+        <p>Interest: ${Math.round(interestData[index]/1000)}K</p>
+        </div>
         <GraphBar
           key={index}
           barWidth={props.barWidth}

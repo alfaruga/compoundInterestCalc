@@ -11,7 +11,7 @@ const GraphArea = (props) => {
   const currentYear = date.getFullYear();
 
   let content = (
-    <div className={"graph-area "+ "graph-area_no_Data"}>
+    <div className={"graph-area graph-area_no_Data"}>
       <h1>The graph will appear here</h1>
       <h4>
         Select a monthly deposit, interest rate, years and inflation to build
@@ -23,10 +23,12 @@ const GraphArea = (props) => {
   if (numberOfColumns !== 0) {
     content = (
       <div className="graph-area">
-        <YAxis className="graph-area_yaxis"/>
+        <YAxis
+          className="graph-area_yaxis"
+          ticks={numberOfColumns}
+          limit={props.graphData["Net Gains"]}
+        />
         <div className="graph-area_xaxis_bars">
-            ROI: {props.graphData["Net Gains"]}<br/>
-            Compound inerest: {props.graphData["Compound Interest"]}
           <div className="graph-area_bars">
             <GraphBars
               graphData={props.graphData}
@@ -35,12 +37,13 @@ const GraphArea = (props) => {
               monthlyDeposit={props.monthlyDeposit}
             />
           </div>
-          <Xaxis
-            className="graph-area_xaxis"
-            barWidth={barWidth}
-            year={currentYear}
-            columns={numberOfColumns}
-          />
+          <div className="graph-area_xaxis">
+            <Xaxis
+              barWidth={barWidth}
+              year={currentYear}
+              columns={numberOfColumns}
+            />
+          </div>
         </div>
       </div>
     );

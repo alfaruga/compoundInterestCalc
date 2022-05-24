@@ -9,4 +9,24 @@
 .yaxis_label{
     border-top: solid 3px black;
     box-sizing: border-box;
+    height: 5%;
+}
+.yaxis_ticks{
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+justify-content: flex-end;
+}
+.yaxis_tick{
+box-sizing: border-box;
+display: flex;
+justify-content: flex-end;
+
+}
+.yaxis_line{
+    background-color: black;
+    width: 15%;
+    height: 2px;
+    margin-right: 0;
+    margin-top:0;
 }
