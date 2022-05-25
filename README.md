@@ -16,5 +16,5 @@ Some basic stuff:
 
 </ul>
 ## Notes
-It should be worth notice that some styles are not 100% ready, after 10 years of investment the green box that shows the return of investment and yearly interest gets distorted.
+It should be worth noticing that some styles are not 100% ready, after 10 years of investment the green box that shows the return of investment and yearly interest gets distorted.
 I could show them only when hovering over the bars, but I still don't know how to do that using react.
