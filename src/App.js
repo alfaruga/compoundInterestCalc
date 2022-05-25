@@ -47,7 +47,6 @@ function App() {
     let years = parseInt(input[2]["value"]);
     let inflation = parseInt(input[3]["value"]);
 
-    console.log("Building graph...");
 
     let netGains = 0;
     let yearlyGains = [];
@@ -59,7 +58,6 @@ function App() {
       if (i % 12 === 0) {
         yearlyGains = [...yearlyGains, netGains];
         yearlyInterest = [...yearlyInterest, netGains - deposits * i];
-        console.log(yearlyGains);
       }
     }
     let compoundInterest = netGains - deposits * years * 12;

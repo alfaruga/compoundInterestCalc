@@ -6,7 +6,6 @@ import React from "react";
 
 const GraphArea = (props) => {
   const numberOfColumns = props.graphData["Yearly Gains"].length;
-  console.log(numberOfColumns);
   const barWidth = (1 / props.graphData["Yearly Gains"].length) * 90 + "%";
   const date = new Date();
   const currentYear = date.getFullYear();
