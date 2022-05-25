@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/alfaruga/compoundInterestCalc/precache-manifest.29baff7a109e54896dc89840e85f698e.js"
+  "/compoundInterestCalc/precache-manifest.debd3344aa9fb8ac9c603bdf9fcd7fda.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/alfaruga/compoundInterestCalc/index.html", {
+workbox.routing.registerNavigationRoute("/compoundInterestCalc/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
