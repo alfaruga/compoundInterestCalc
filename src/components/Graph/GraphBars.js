@@ -12,7 +12,6 @@ const GraphBars = (props) => {
       <div
         key={index}
         className="graph-bars_container"
-       
         style={{ width: `${props.barWidth}` }}
       >
         <div className="graph-bars_bar_label">
@@ -31,8 +30,7 @@ const GraphBars = (props) => {
       </div>
     );
   });
-  return <div  
-  className="graph-bars">{arrYearlyGains}</div>;
+  return <div className="graph-bars">{arrYearlyGains}</div>;
 };
 
 export default GraphBars;
