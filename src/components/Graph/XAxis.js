@@ -1,4 +1,5 @@
 import './XAxis.css';
+import React from "react";
 
 const Xaxis = (props) => {
   let arr = [];

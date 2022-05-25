@@ -1,4 +1,6 @@
 import "./GraphBar.css";
+import React from "react";
+
 
 const GraphBar = (props) => {
   const heightStyle = (props.height / props.maxHeight) * 90 + "%";

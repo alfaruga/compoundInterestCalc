@@ -1,4 +1,5 @@
 import "./YAxis.css";
+import React from "react";
 
 const YAxis = (props) => {
   let arr = [];

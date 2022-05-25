@@ -1,5 +1,8 @@
 import GraphArea from "./GraphArea";
 import "./Graph.css";
+import React from "react";
+
+
 const Graph = (props) => {
   let content = <h1>The graph will appear here</h1>;
 

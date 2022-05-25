@@ -1,5 +1,7 @@
 import Control from "./Control";
 import "./Controls.css";
+import React from "react";
+
 const Controls = (props) => {
   const updateValues = (key, value) => {
     props.updateHandler(key, value);

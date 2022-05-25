@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Form from "./components/Controls/Form";
 import Graph from "./components/Graph/Graph";
+import React from "react";
 
 function App() {
   const controlsValues = [

@@ -1,4 +1,5 @@
 import "./Control.css";
+import React from "react";
 
 const Control = (props) => {
   const inputHandler = (event) => {

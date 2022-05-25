@@ -1,5 +1,6 @@
 import GraphBar from "./GraphBar";
 import "./GraphBars.css";
+import React from "react";
 
 const GraphBars = (props) => {
   const netGains = props.graphData["Net Gains"];

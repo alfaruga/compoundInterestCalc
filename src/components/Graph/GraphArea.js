@@ -2,6 +2,7 @@ import GraphBars from "./GraphBars";
 import "./GraphArea.css";
 import Xaxis from "./XAxis";
 import YAxis from "./YAxis";
+import React from "react";
 
 const GraphArea = (props) => {
   const numberOfColumns = props.graphData["Yearly Gains"].length;

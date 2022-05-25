@@ -1,5 +1,6 @@
 import Controls from './Controls';
-import './Form.css'
+import './Form.css';
+import React from 'react';
 const Form = props =>{
     const keyAndValueExtractor=(key, value)=>{
         props.updateHandler(key, value)
