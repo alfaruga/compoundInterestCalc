@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/compoundInterestCalc/precache-manifest.debd3344aa9fb8ac9c603bdf9fcd7fda.js"
+  "/compoundInterestCalc/precache-manifest.bfa8d7b395695d98df5866080702f13e.js"
 );
 
 workbox.clientsClaim();
