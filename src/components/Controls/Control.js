@@ -1,6 +1,6 @@
 import "./Control.css";
 import React from "react";
-
+//Nothing to see here
 const Control = (props) => {
   const inputHandler = (event) => {
     console.log(event.target.id, event.target.value);
