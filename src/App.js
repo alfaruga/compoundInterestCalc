@@ -13,7 +13,7 @@ function App() {
     },
     {
       key: "Years",
-      value: +20,
+      value: +5,
     },
     {
       key: "Inflation",
