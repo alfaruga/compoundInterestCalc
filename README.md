@@ -1,6 +1,6 @@
 # Compound interest graphic calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). </br>
 Live site (on Githubpages): [Here](https://alfaruga.github.io/compoundInterestCalc/)
 Alternative Azure AppServices: [Here](https://compound-interest-calc.azurewebsites.net/)
 
